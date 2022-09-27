@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background-image: url(./assets/birthdaygiphy.gif);
+    color: white;
+    background-position: top center;
+    background-size: auto;
+    
+}
+
+h1, h2, h4, p {
+    text-shadow: 0px 0px 5px goldenrod;
+}
+
+#bff-img {
+    width: 150px;
+    margin: auto;
+    background-image: radial-gradient(circle at -20.44% 43.84%, #ff6f75 0, #ff627e 8.33%, #ff5488 16.67%, #ff4592 25%, #ff359c 33.33%, #ff24a7 41.67%, #f00fb1 50%, #de00bc 58.33%, #c809c8 66.67%, #ae1cd3 75%, #8e2bdf 83.33%, #6339ea 91.67%, #0043f3 100%);
+    border-radius: 50%;
+    display: flex;
+    padding: 8px;
+    /*border: 6px solid #C71585;*/
+}
+
+#bday-age{
+    /*background: #C71585;*/
+    padding: 5px 10px;
+    background-image: radial-gradient(circle at -20.44% 43.84%, #ff6f75 0, #ff627e 8.33%, #ff5488 16.67%, #ff4592 25%, #ff359c 33.33%, #ff24a7 41.67%, #f00fb1 50%, #de00bc 58.33%, #c809c8 66.67%, #ae1cd3 75%, #8e2bdf 83.33%, #6339ea 91.67%, #0043f3 100%);
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+#bday-date {
+    margin: 0;
+    background-image: radial-gradient(circle at -20.44% 43.84%, #ff6f75 0, #ff627e 8.33%, #ff5488 16.67%, #ff4592 25%, #ff359c 33.33%, #ff24a7 41.67%, #f00fb1 50%, #de00bc 58.33%, #c809c8 66.67%, #ae1cd3 75%, #8e2bdf 83.33%, #6339ea 91.67%, #0043f3 100%);
+    /*background: #C71585;*/
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-img {
+
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(./assets/giftcover01.jpg);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FFBDD1;  /*FFE8EF*/
+}
+
+.gift-section {
+    margin-top: 50px;
+    
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-happy:hover {
+    
+    background-image: url(./assets/giphy00.gif);
+}
+
+#gift-img-hot:hover {
+    background-image: url(./assets/giphy02.gif);
+
+}#gift-img-genius:hover {
+    background-image: url(./assets/giphy03.gif);
+}
+
+#gift-img-badass:hover {
+    background-image: url(./assets/giphy04.gif);
+}
+
+#gift-img-cheers:hover {
+    background-image: url(./assets/giphy05.gif);
+}
